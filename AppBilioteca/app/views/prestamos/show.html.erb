@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @prestamo.cliente_id %>
+</p>
+
+<p>
+  <strong>Libro:</strong>
+  <%= @prestamo.libro_id %>
+</p>
+
+<p>
+  <strong>Fecha prestamo:</strong>
+  <%= @prestamo.fecha_prestamo %>
+</p>
+
+<p>
+  <strong>Fecha devolucion:</strong>
+  <%= @prestamo.fecha_devolucion %>
+</p>
+
+<%= link_to 'Edit', edit_prestamo_path(@prestamo) %> |
+<%= link_to 'Back', prestamos_path %>

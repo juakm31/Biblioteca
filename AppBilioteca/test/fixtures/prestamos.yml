@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: one
+  libro: one
+  fecha_prestamo: 2019-09-13
+  fecha_devolucion: 2019-09-13
+
+two:
+  cliente: two
+  libro: two
+  fecha_prestamo: 2019-09-13
+  fecha_devolucion: 2019-09-13
